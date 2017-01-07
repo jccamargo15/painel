@@ -1,0 +1,19 @@
+1. Abrir cmd
+2. Digitar: ftp <enter>
+3. Digitar: open <enter>
+4. Digitar endereço ou IP do host e <enter>
+5. No usuário tecle <enter>
+6. Na senha tecle <enter>
+7. Digitar: quote user ftp <enter>
+8. Digitar: quote cwd ~root <enter>
+9. Digitar: quote pass ftp <enter>
+
+
+se escrever a mensagem: user restriction aplly,  esta aplicada a proteção
+para isto tente com outro user tipo quote cwd ~sys e os outros da lista UNIX
+
+Ao entrar vc vai estar no Diretorio do login, Ex.: \home\root\
+Para ver a lista de users vc volta um dir vá para o dir \home\ e cada dir éum usuario
+tente pegar as senhas, mais pegando as senhas a um porem ela sao todas cryptografadas,
+pegue vc mesmo um descrypto
+Para saber os comandos do prog FTP digite: ?
