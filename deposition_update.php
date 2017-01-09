@@ -2,8 +2,7 @@
 <?php
 
 // connection database
-require_once 'connection.php';
-require_once 'myfunctions.php';
+require_once 'settings.php';
 
 
 // receive news title and text

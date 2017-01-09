@@ -30,9 +30,12 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
   <style>
+    .logo-empresa-painel {
+      margin-bottom: 20px;
+    }
     .btn-login-painel {
-      background-color: #4b4b4b;
-      border-color: #4b4b4b;
+      background-color: <?php echo $cor_principal; ?>;
+      border-color: <?php echo $cor_principal; ?>;
     }
   </style>
 </head>
@@ -40,8 +43,7 @@
 <body>
   <div class="container">
     <form class="form-signin" method="POST" action="signin_login.php">
-      <!-- <h2 class="form-signin-heading">Faça login</h2> -->
-      <img class="img-responsive" src="images/logo_empresa.png" alt="Grupo Sultec" style="margin-bottom: 20px;">
+      <img class="img-responsive logo-empresa-painel" src="images/logo_empresa.png" alt="Grupo Sultec">
       <label for="inputEmail" class="sr-only">Email address</label>
       <input type="email" id="inputEmail" name="inputEmail" class="form-control" placeholder="Email" required="" autofocus="">
       <label for="inputPassword" class="sr-only">Password</label>

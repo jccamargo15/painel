@@ -4,7 +4,7 @@
 // variaveis do painel - INICIO
 $nome_empresa = 'Nome Empresa';
 
-$cor_principal_empresa = '';
+$cor_principal = '#4b4b4b'; // cor que será usada como base para o painel
 
 $online = 0; //TROCAR
 

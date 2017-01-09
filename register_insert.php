@@ -1,6 +1,5 @@
 <?php 
-require_once 'myfunctions.php';
-require_once 'connection.php';
+require_once 'settings.php';
 
 // receive client information
 $client_name = $_POST['client_name'];

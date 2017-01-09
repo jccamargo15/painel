@@ -1,5 +1,5 @@
 <?php
-include 'connection.php';
+include 'settings.php';
 
 $pass = trim(addslashes($_POST['new_pass']));
 $confpass = trim(addslashes($_POST['confirm_pass']));

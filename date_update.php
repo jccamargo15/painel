@@ -1,6 +1,5 @@
 <?php 
-require_once 'myfunctions.php';
-require_once 'connection.php';
+require_once 'settings.php';
 
 // receive dates name and day
 $date_name = $_POST['date_name'];

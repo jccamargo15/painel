@@ -5,8 +5,7 @@
  * For licensing, see LICENSE.md or http://ckeditor.com/license
  */
 
-// connection database
-include 'connection.php';
+include 'settings.php';
 
 // get and treat editor information - begin
 if (! empty ( $_POST )) {
