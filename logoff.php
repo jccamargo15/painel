@@ -12,7 +12,7 @@
 	setcookie ("user_logged", "", time() - 3600);
 	
 	// directs to index
-	header("Location: index.html");
+	header("Location: ./");
 	
 	/* echo '<a href="index.html">Index</a>'; */
 	/* echo "<script type='text/javascript'>document.location.href=\"index.php\" </script>"; */

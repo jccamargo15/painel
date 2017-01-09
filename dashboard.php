@@ -11,9 +11,9 @@
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 <meta name="description" content=""> <!-- change if published online -->
 <meta name="author" content="Art.com Propaganda">
-<link rel="icon" href="../favicon.ico"> <!-- change -->
+<link rel="icon" href="favicon.ico"> <!-- change -->
 
-<title>Painel Sultec</title> <!-- change -->
+<title><?php echo $nome_empresa; ?></title> <!-- change -->
 
 <!-- Bootstrap core CSS -->
 <link href="bt/docs/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -58,8 +58,7 @@ if ( !isset( $_COOKIE ["admin_logged"] ) && !isset( $_COOKIE ["user_logged"] ) )
 				<span class="icon-bar"></span>
 			</button>
 			<!-- brand nav bar menu mobile -->
-			<!--  <a class="navbar-brand" href="#" style="color: #ffffff;">Angular Painel</a> -->
-			<img class="img-responsive" src="negative_logo.png" alt="Angular Painel" style="height: 30px; margin: 10px;">
+			<img class="img-responsive" src="images/logo_empresa_negativo.png" alt="Nome Empresa" style="height: 30px; margin: 10px;">
 		</div>
 		<div id="navbar" class="navbar-collapse collapse">
 		<!-- show menu options according logged user -->

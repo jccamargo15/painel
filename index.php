@@ -8,7 +8,7 @@
   <!-- The above 3 meta tags *must* come first in the head; any other head
   content must come *after* these tags -->
   <!-- <meta name="description" content=""> -->
-  <meta name="author" content="Art.Com Propaganda">
+  <meta name="author" content="Art.Com Comunicação e Marketing">
   <link rel="icon" href="favicon.ico">
   <title><?php echo $nome_empresa; ?> | Área Restrita</title>
   <!-- change -->
