@@ -1,7 +1,6 @@
 <?php
 session_start();
-require_once 'myfunctions.php';
-require_once 'connection.php';
+require_once 'settings.php';
 
 /* receive the information of user and pass */
 $email = $_POST ['inputEmail'];

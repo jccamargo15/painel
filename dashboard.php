@@ -1,7 +1,6 @@
 <?php 
 	session_start();
-	require_once 'connection.php';
-	include 'myfunctions.php';
+	require_once 'settings.php';
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
