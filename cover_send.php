@@ -5,6 +5,7 @@
 	<!-- it's just a reminder, do not really validates the file format -->
 	<!-- note: implement validation later -->
 	<div class="alert alert-success" role="alert">Lembre-se, a imagem enviada deve ser do tipo <strong>JPG</strong>.</div>
+	<div class="alert alert-success" role="alert">O arquivo enviado não deve ser maior que <strong>2 MB</strong>.</div>
 
 	<!-- form action calls the cover_insert.php file and send the news code too  -->
 	<form class="form-horizontal" name="file_send" action="?page=cover_insert&news_cod=<?php echo $_GET['news_cod']; ?>" method="post" enctype="multipart/form-data">

@@ -2,6 +2,8 @@
 <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 	<h1 class="page-header">Enviar arquivo</h1>
 
+	<div class="alert alert-success" role="alert">O arquivo enviado não deve ser maior que <strong>2 MB</strong>.</div>
+
 	<!-- form action calls de file insert script and send the path of client folder -->
 	<form class="form-horizontal" name="file_send" action="?page=file_insert&client_folder=<?php echo $_GET['client_folder']; ?>" method="post" enctype="multipart/form-data">
 		<fieldset>
