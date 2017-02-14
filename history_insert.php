@@ -1,5 +1,4 @@
 <?php
-include 'settings.php';
 
 $folder = $_GET['tb_folders_folder_cod'];
 $client = $_GET['tb_folders_tb_clients_client_cod'];
