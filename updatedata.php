@@ -5,8 +5,6 @@
  * For licensing, see LICENSE.md or http://ckeditor.com/license
  */
 
-include 'settings.php';
-
 // get and treat editor information - begin
 if (! empty ( $_POST )) {
 	foreach ( $_POST as $key => $value ) {
