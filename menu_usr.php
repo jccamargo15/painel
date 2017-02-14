@@ -1,7 +1,7 @@
 <div class="col-sm-3 col-md-2 sidebar">
 	
 	<div class="negative_logo">
-		<img alt="Grupo Sultec" src="negative_logo.png">
+		<img alt="<?php echo $nome_empresa; ?>" src="images/<?php echo $logo_empresa_negativo; ?>.png">
 	</div>
 
 	<ul class="nav nav-sidebar">
