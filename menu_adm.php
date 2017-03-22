@@ -20,8 +20,8 @@
 			}
 			
 			// array with side menu itens
-			$side_menu_itens = array("Clientes", "Notícias", "Histórico", "Chamados", "Depoimentos", "Trocar Senha");
-			$side_menu_links = array("clientes", "noticias", "historico", "chamados", "depoimentos", "senha");
+			$side_menu_itens = array("Clientes", "Notícias", "Galeria", "Histórico", "Chamados", "Depoimentos", "Trocar Senha");
+			$side_menu_links = array("clientes", "noticias", "galeria", "historico", "chamados", "depoimentos", "senha");
 			
 			for($i=0; $i<count($side_menu_itens); $i++) {
 				// verify veriable to select list item
