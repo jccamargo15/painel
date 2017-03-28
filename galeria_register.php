@@ -3,19 +3,19 @@
     <h1 class="page-header">Cadastrar Galeria</h1>
 
     <!-- form action calls the cover_insert.php file and send the news code too  -->
-    <form class="form-horizontal" name="file_send" action="?page=colunista_insert" method="post" enctype="multipart/form-data">
+    <form class="form-horizontal" name="gallery_insert" action="?page=galeria_insert" method="post" enctype="multipart/form-data">
         <fieldset>
             <div class="form-group">
-                <label class="col-md-4 control-label" for="colunista_nome">Nome do Galeria</label>
+                <label class="col-md-4 control-label" for="gallery_name">Nome do Galeria</label>
                 <div class="col-md-4">
-                    <input id="colunista_nome" name="colunista_nome" placeholder="nome" class="form-control input-md" required="" type="text">
+                    <input id="colunista_nome" name="gallery_name" placeholder="nome" class="form-control input-md" required="" type="text">
                 </div>
             </div>
 
             <div class="form-group">
-                <label class="col-md-4 control-label" for="colunista_info">Texto</label>
+                <label class="col-md-4 control-label" for="gallery_text">Texto</label>
                 <div class="col-md-4">
-                    <textarea id="colunista_info" name="colunista_info" placeholder="nome" class="form-control"></textarea>
+                    <textarea id="gallery_text" name="gallery_text" placeholder="nome" class="form-control"></textarea>
                 </div>
             </div>
 
