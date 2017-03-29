@@ -51,7 +51,7 @@
 	// prints the registers in each line - begin
 	while($row = mysqli_fetch_assoc($query)) {
 		echo '<tr>';
-		echo '<td><a href="?page=cliente&galeria='.$row['gallery_cod'].'">' . $row['gallery_name'] . '</a></td>';
+		echo '<td>' . $row['gallery_name'] . '</td>';
 		echo '<td><a href="?page=images&galeria='.$row['gallery_cod'].'" class="btn btn-primary btn-xs">Fotos</a></td>';
 		echo '<td><button type="button" class="btn btn-danger btn-xs" data-toggle="modal" data-target="#myModal'.$row['gallery_cod'].'">Excluir</button></td>';
 		echo '</tr>';
