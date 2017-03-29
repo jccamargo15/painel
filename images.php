@@ -20,10 +20,31 @@
             //echo '<p>Inserido em: 18/08/2016</p>';
             echo '<p>';
             echo '<a href="?page=image_send&galeria='.$gallery_cod.'&image_cod='.$row['image_cod'].'&image_name='.$row['image_name'].'&image_action=change" class="btn btn-primary" role="button">Alterar</a> ';
-            echo ' <a href="?page=image_insert&image_action=delete" class="btn btn-danger" role="button">Remover</a>';
+            //echo ' <a href="?page=image_insert&image_action=delete" class="btn btn-danger" role="button">Remover</a>';
+            echo '<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal'.$row['image_cod'].'">Excluir</button>';
             echo '</p>';
             echo '</div>';
             echo '</div></div>';
+            // delete modal - begin
+            echo '<div id="myModal'.$row['image_cod'].'" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h2 class="modal-title"><span class="label label-warning">Atenção</span></h2>
+                            </div>
+                        <div class="modal-body">
+                        <p>Tem CERTEZA que deseja excluir esta imagem?</p>
+                        <p>Esta ação não pode se desfeita!.</p>
+                    </div>';
+            echo '  <div class="modal-footer">
+                        <a href="?page=delete_image&image_cod='.$row['image_cod'].'&image_name='.$row['image_name'].'&gallery_cod='.$gallery_cod.'" type="button" class="btn btn-danger">Excluir</a>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cancelar</button>
+                    </div>
+                  </div>
+                </div>
+            </div>';
+            // delete modal - end
         }
     ?>
     </div>
